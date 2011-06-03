@@ -1,0 +1,10 @@
+development: &development
+  facebook:
+    id:
+    secret:
+test:
+  <<: *development
+production:
+  facebook:
+    id:
+    secret:

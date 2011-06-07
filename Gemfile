@@ -30,7 +30,7 @@ gem 'sqlite3'
 #   gem 'webrat'
 # end
 
-gem('omniauth')
+gem('omniauth', :git => 'https://github.com/codyrobbins/omniauth.git', :branch => 'mock_request_session_fix')
 
 group(:development, :test) do
   gem('rspec-rails')

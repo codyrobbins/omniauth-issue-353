@@ -31,6 +31,7 @@ gem 'sqlite3'
 # end
 
 gem('omniauth')
+gem('omniauth-facebook', :git => 'https://github.com/mkdynamic/omniauth-facebook.git')
 
 group(:development, :test) do
   gem('rspec-rails')
